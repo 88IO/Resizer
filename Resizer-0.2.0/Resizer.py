@@ -1,9 +1,14 @@
-import sys
+#!/home/aoba/miniconda3/bin/python
+# Coding:   utf-8
+# Author:   881O
+# Created:  2018-07-25 15:50:18
+
 from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox, QFileDialog
 from Resizer_ui import Ui_MainWindow
 from PIL import Image
 import threading
 import os
+import sys
 
 
 class Events(object):
